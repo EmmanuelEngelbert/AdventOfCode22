@@ -20,6 +20,22 @@ public class Day1 {
         System.out.println("Elf " + elfCals.indexOf(Collections.max(elfCals)) +
                 " carries " + Collections.max(elfCals) + " Calories");
     }
+    public static void top3Cals(String s){
+        Integer[] elfCals = calorieCount(s);
+        int k = elfCals.length;
+        boolean sorted = false;
+        int temp;
+        while(!sorted) {
+            sorted = true;
+            for (int i = 0; i < k - 1; i++) {
+                if (elfCals[i] > elfCals[i+1]) {
+                    temp = elfCals[i];
+                    elfCals[i] = elfCals[i+1];
+                    elfCals[i+1] = temp;
+                    sorted = false;
+                }
+            }
+        }
+        System.out.println(elfCals[k-1] + elfCals[k-2] + elfCals[k-3]);
+    }
 }
-
-

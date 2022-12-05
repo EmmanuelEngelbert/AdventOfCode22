@@ -8,6 +8,6 @@ public class Main {
     public static void main(String[] args) {
        Day1.day1Task(input1);
        System.out.println(Day2.rpsResult(input2));
-
+       Day1.top3Cals(input1);
     }
 }
