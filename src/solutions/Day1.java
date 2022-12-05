@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 public class Day1 {
-    public static void day1Task(String data){
+     public static Integer[] calorieCount(String data){
         String[] storage = data.split("\n\n");
         Integer[] totalCals = new Integer[storage.length];
         for (int j = 0; j < storage.length; j++) {
@@ -13,8 +13,10 @@ public class Day1 {
                 k += Integer.parseInt(s);
             }
             totalCals[j] = k;
-        }
-        List<Integer> elfCals = Arrays.asList(totalCals);
+        }return totalCals;
+    }
+    public static void day1Task(String s){
+        List<Integer> elfCals = Arrays.asList(calorieCount(s));
         System.out.println("Elf " + elfCals.indexOf(Collections.max(elfCals)) +
                 " carries " + Collections.max(elfCals) + " Calories");
     }
