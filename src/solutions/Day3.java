@@ -29,4 +29,20 @@ public class Day3 {
             k+=hashDictionary().get(d);
         }return k;
     }
+
+    public static int priorityGroupsOf3(String s){
+        //split by \n then group in 3s probably a loop for each
+        //length/3 - int y <length/3 rowStore[y], rowStore[y+1] and rowStore[y+2]
+        //loop int u = 0; u<rowStore.length;u=+3
+        //each loop
+        String[] rowStore = s.split("\n");
+        List<String> priorityInGroupsOf3 = new ArrayList<>();
+        for (int u=0; u<rowStore.length;u+=3){
+            List<String> charStore1 = new ArrayList<>(Arrays.asList(rowStore[u].split("")));
+            List<String> charStore2 = new ArrayList<>(Arrays.asList(rowStore[u+1].split("")));
+            List<String> charStore3 = new ArrayList<>(Arrays.asList(rowStore[u+2].split("")));
+            charStore1.retainAll(charStore2); charStore1.retainAll(charStore3);
+            priorityInGroupsOf3.add(charStore1.get(0));
+        }return prioritySum(priorityInGroupsOf3);
+    }
 }
