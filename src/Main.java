@@ -1,8 +1,7 @@
 import solutions.Day1;
 import solutions.Day2;
 
-import static solutions.Day3.priorityList;
-import static solutions.Day3.prioritySum;
+import static solutions.Day3.*;
 import static solutions.StringInputs.*;
 
 public class Main {
@@ -12,5 +11,6 @@ public class Main {
        Day1.top3Cals(input1);
        System.out.println(Day2.rpsResult2(input2));
        System.out.println(prioritySum(priorityList(input3)));
+       System.out.println(priorityGroupsOf3(input3));
     }
 }
