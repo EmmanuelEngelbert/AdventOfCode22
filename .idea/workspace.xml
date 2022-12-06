@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb481ca0-d79b-477e-9f4a-38114322ccdc" name="Changes" comment="Added solution to Day1 part 2">
+    <list default="true" id="fb481ca0-d79b-477e-9f4a-38114322ccdc" name="Changes" comment="Added solution to Day3 part 1">
+      <change afterPath="$PROJECT_DIR$/src/solutions/Day3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Day2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/StringInputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/StringInputs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +86,26 @@
       <option name="project" value="LOCAL" />
       <updated>1670266828452</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added solution to Day2 part 2">
+      <created>1670267645734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670267645734</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project structure" />
@@ -93,7 +113,9 @@
     <MESSAGE value="Added .idea to .gitignore" />
     <MESSAGE value="Refactored Day1.java" />
     <MESSAGE value="Added solution to Day1 part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution to Day1 part 2" />
+    <MESSAGE value="Added solution to Day2 part 2" />
+    <MESSAGE value="Added solution to Day3 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution to Day3 part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
