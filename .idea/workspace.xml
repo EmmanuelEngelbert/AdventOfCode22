@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb481ca0-d79b-477e-9f4a-38114322ccdc" name="Changes" comment="Tested the stackArrangement method and confirmed it works as intended">
+    <list default="true" id="fb481ca0-d79b-477e-9f4a-38114322ccdc" name="Changes" comment="Updates reflecting completion of the Day 5 part 1 challenge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solutions/Day5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Day5.java" afterDir="false" />
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670602779851</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updates reflecting completion of the Day 5 part 1 challenge">
+      <created>1670611001396</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670611001396</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +204,8 @@
     <MESSAGE value="Started working on Day 5 part 1 solution - avoided hard-coding stack arrangement" />
     <MESSAGE value="Added Day 5 input" />
     <MESSAGE value="Tested the stackArrangement method and confirmed it works as intended" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested the stackArrangement method and confirmed it works as intended" />
+    <MESSAGE value="Updates reflecting completion of the Day 5 part 1 challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates reflecting completion of the Day 5 part 1 challenge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
