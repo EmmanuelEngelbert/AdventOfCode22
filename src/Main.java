@@ -3,6 +3,7 @@ import solutions.Day2;
 
 import static solutions.Day3.*;
 import static solutions.Day4.*;
+import static solutions.Day5.stackArrangement;
 import static solutions.StringInputs.*;
 
 public class Main {
@@ -15,5 +16,6 @@ public class Main {
        System.out.println(priorityGroupsOf3(input3)); //day 3 - part 2
        System.out.println(completeOverlap(input4)); //day 4 - part 1
        System.out.println(anyOverlap(input4)); //day 4 - part 1
+       System.out.println(stackArrangement(input5));
     }
 }
