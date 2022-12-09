@@ -3,6 +3,7 @@ package solutions;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Day5 {
 
@@ -30,5 +31,24 @@ public class Day5 {
             }
         }
         return  arrangementsOfStacks;
+    }
+    public static String stackingInstructions(String input){
+        String newWord = input.replaceAll("move ", "").replaceAll(" from "," ").replaceAll(" to "," ");
+        String[] stack = newWord.split("\n\n");
+        String[] stackLines = stack[1].split("\n");
+        List<List<String>> arrangement = stackArrangement(input);
+        for (String instructions : stackLines){
+            String[] storage = instructions.split(" ");
+            int[] intStorage = Stream.of(storage).mapToInt(Integer::parseInt).toArray();
+            //get size of lists so that I can remove the last elements
+            for (int i=0;i<intStorage[0];i++){
+                int k = arrangement.get(intStorage[1]-1).size()-1;
+                arrangement.get(intStorage[2]-1).add(arrangement.get(intStorage[1]-1).get(k));
+                arrangement.get(intStorage[1]-1).remove(k);
+            }
+        }String result = "";
+        for (int j=0;j<arrangement.size();j++){
+            result += arrangement.get(j).get(arrangement.get(j).size()-1);
+        } return result;
     }
 }

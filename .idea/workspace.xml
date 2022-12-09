@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb481ca0-d79b-477e-9f4a-38114322ccdc" name="Changes" comment="Modified Main.java and StringInputs.java to include solution for Day 4 part 1">
+    <list default="true" id="fb481ca0-d79b-477e-9f4a-38114322ccdc" name="Changes" comment="Tested the stackArrangement method and confirmed it works as intended">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solutions/Day4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Day4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/Day5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/Day5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +138,35 @@
       <option name="project" value="LOCAL" />
       <updated>1670366827451</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Day 4 part 2 solution">
+      <created>1670403828377</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670403828377</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Started working on Day 5 part 1 solution - avoided hard-coding stack arrangement">
+      <created>1670602007740</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670602007740</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Day 5 input">
+      <created>1670602706081</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670602706082</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Tested the stackArrangement method and confirmed it works as intended">
+      <created>1670602779851</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670602779851</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,7 +193,11 @@
     <MESSAGE value="Updated Main.java and workspace.xml to include the Day3 part 2 solution" />
     <MESSAGE value="Added solution for Day 4 part 1" />
     <MESSAGE value="Modified Main.java and StringInputs.java to include solution for Day 4 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Main.java and StringInputs.java to include solution for Day 4 part 1" />
+    <MESSAGE value="Added Day 4 part 2 solution" />
+    <MESSAGE value="Started working on Day 5 part 1 solution - avoided hard-coding stack arrangement" />
+    <MESSAGE value="Added Day 5 input" />
+    <MESSAGE value="Tested the stackArrangement method and confirmed it works as intended" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested the stackArrangement method and confirmed it works as intended" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,6 +4,7 @@ import solutions.Day2;
 import static solutions.Day3.*;
 import static solutions.Day4.*;
 import static solutions.Day5.stackArrangement;
+import static solutions.Day5.stackingInstructions;
 import static solutions.StringInputs.*;
 
 public class Main {
@@ -17,5 +18,6 @@ public class Main {
        System.out.println(completeOverlap(input4)); //day 4 - part 1
        System.out.println(anyOverlap(input4)); //day 4 - part 1
        System.out.println(stackArrangement(input5));
+       System.out.println(stackingInstructions(input5));
     }
 }
